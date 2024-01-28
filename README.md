@@ -31,55 +31,6 @@ function Blog() {
         </ul>
       </div>
 
-      <style jsx>{`
-        .layout {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          min-height: 100vh;
-        }
-
-        .content-container {
-          width: 80%;
-          max-width: 800px;
-          text-align: center;
-        }
-
-        .image-container {
-          margin-bottom: 20px;
-        }
-
-        .rounded-image {
-          width: 200px;
-          height: 200px;
-          overflow: hidden;
-          border-radius: 50%;
-          margin: 0 auto;  /* Center the image horizontally */
-        }
-
-        .rounded-image img {
-          object-fit: cover;
-          border-radius: 50%;
-          width: 100%;  /* Make the image fill the container */
-          height: 100%;
-        }
-
-        h1, h2, p, ul {
-          text-align: center;
-        }
-
-        ul {
-          list-style: none;
-          padding: 0;
-        }
-
-        li {
-          margin-bottom: 10px;
-        }
-      `}</style>
-    </div>
-  );
 }
 
 export default Blog;
