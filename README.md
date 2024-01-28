@@ -1,6 +1,4 @@
 
-function Blog() {
-  return (
     <div className="layout">
       <div className="content-container">
         <h1>My Blog</h1>
