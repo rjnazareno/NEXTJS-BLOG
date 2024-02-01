@@ -31,6 +31,8 @@ function Blog() {
         </ul>
       </div>
 
+          <li> I successfully update my blog</li>
+
       <style jsx>{`
         .layout {
           display: flex;
